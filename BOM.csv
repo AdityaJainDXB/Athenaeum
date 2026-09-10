@@ -1,0 +1,39 @@
+Designator,Value,Footprint,LCSC Part,Description,Approx Unit Cost (USD),Qty
+U1,ESP32-S3-WROOM-1,RF_Module:ESP32-S3-WROOM-1,C2913198,ESP32-S3 Wi-Fi/BLE module 8MB flash,~2.50,1
+U2,MCP73831-2-OT,Package_TO_SOT_SMD:SOT-23-5,C424093,LiPo linear charge management IC (4.2V),~0.15,1
+U3,TLV70233_SOT23-5,Package_TO_SOT_SMD:SOT-23-5,C110287,3.3V low-IQ LDO regulator,~0.20,1
+J1,USB_C_Receptacle_USB2.0_14P,Connector_USB:USB_C_Receptacle_GCT_USB4085,,USB-C receptacle (power + data),~0.30,1
+J2,Conn_01x08,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,,8-pin header to e-Paper Driver HAT,~0.10,1
+J3,Micro_SD_Card_Det1,Connector_Card:microSD_HC_Molex_47219-2001,,microSD card socket,~0.40,1
+BT1,Battery_Cell,Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,,JST-PH 2-pin battery connector,~0.10,1
+D1,LED,LED_SMD:LED_0603_1608Metric,,Charging status LED,~0.02,1
+C1,100nF,Capacitor_SMD:C_0603_1608Metric,,Decoupling capacitor,~0.01,1
+C2,10uF,Capacitor_SMD:C_0603_1608Metric,,Bulk decoupling capacitor,~0.02,1
+R1,10k,Resistor_SMD:R_0603_1608Metric,,Boot (GPIO0) pull-up,~0.01,1
+R2,10k,Resistor_SMD:R_0603_1608Metric,,Reset (EN) pull-up,~0.01,1
+R3,5.1k,Resistor_SMD:R_0603_1608Metric,,USB-C CC1 pull-down,~0.01,1
+R4,5.1k,Resistor_SMD:R_0603_1608Metric,,USB-C CC2 pull-down,~0.01,1
+R5,2k,Resistor_SMD:R_0603_1608Metric,,Charge current set (PROG),~0.01,1
+R6,1k,Resistor_SMD:R_0603_1608Metric,,Status LED current limit,~0.01,1
+R7,10k,Resistor_SMD:R_0603_1608Metric,,Button pull-up (Up),~0.01,1
+R8,10k,Resistor_SMD:R_0603_1608Metric,,Button pull-up (Down),~0.01,1
+R9,10k,Resistor_SMD:R_0603_1608Metric,,Button pull-up (Menu),~0.01,1
+R10,10k,Resistor_SMD:R_0603_1608Metric,,Button pull-up (Back),~0.01,1
+R11,10k,Resistor_SMD:R_0603_1608Metric,,Button pull-up (Select),~0.01,1
+SW1,SW_Push,Button_Switch_THT:SW_PUSH_6mm,,Boot button,~0.05,1
+SW2,SW_Push,Button_Switch_THT:SW_PUSH_6mm,,Reset button,~0.05,1
+SW3,SW_Push,Button_Switch_THT:SW_PUSH_6mm,,Nav button: Up,~0.05,1
+SW4,SW_Push,Button_Switch_THT:SW_PUSH_6mm,,Nav button: Down,~0.05,1
+SW5,SW_Push,Button_Switch_THT:SW_PUSH_6mm,,Nav button: Menu,~0.05,1
+SW6,SW_Push,Button_Switch_THT:SW_PUSH_6mm,,Nav button: Back,~0.05,1
+SW7,SW_Push,Button_Switch_THT:SW_PUSH_6mm,,Nav button: Select,~0.05,1
+
+Off-board items (not part of PCB assembly order):
+Item,Description,Approx Cost (USD),Qty
+Waveshare 7.5" e-Paper panel (800x480 mono),Main display,~35-45,1
+Waveshare Universal e-Paper Driver HAT,FPC-to-header display adapter,~10,1
+Single-cell LiPo battery (JST-PH connector),Power source - capacity TBD based on enclosure size,~5-8,1
+
+Note: unit costs are approximate JLCPCB/LCSC catalog estimates as of design time and should be
+re-verified at checkout, since component pricing and stock fluctuate. PCB fabrication and assembly
+service fees (setup, extended-part fees, shipping) are separate from per-component costs above.
